@@ -1,0 +1,101 @@
+pu_location_id,pu_zone,pu_borough,do_location_id,do_zone,do_borough,trips,avg_distance_mi,avg_duration_min,p50_duration_min,avg_total_usd
+237,Upper East Side South,Manhattan,236,Upper East Side North,Manhattan,289795,1.03,7.43,6.73,15.84
+236,Upper East Side North,Manhattan,237,Upper East Side South,Manhattan,246799,1.02,8.1,7.43,16.2
+237,Upper East Side South,Manhattan,237,Upper East Side South,Manhattan,193431,0.64,5.86,5.0,14.12
+236,Upper East Side North,Manhattan,236,Upper East Side North,Manhattan,178326,0.62,4.92,4.22,13.18
+161,Midtown Center,Manhattan,237,Upper East Side South,Manhattan,136675,1.05,10.18,9.15,18.72
+237,Upper East Side South,Manhattan,161,Midtown Center,Manhattan,126766,1.04,10.47,9.43,18.51
+161,Midtown Center,Manhattan,236,Upper East Side North,Manhattan,110459,1.9,14.19,13.1,23.44
+237,Upper East Side South,Manhattan,162,Midtown East,Manhattan,101593,0.97,9.01,7.92,17.44
+142,Lincoln Square East,Manhattan,239,Upper West Side South,Manhattan,100488,0.98,6.22,5.83,15.2
+239,Upper West Side South,Manhattan,238,Upper West Side North,Manhattan,97162,0.84,5.21,4.83,13.91
+239,Upper West Side South,Manhattan,142,Lincoln Square East,Manhattan,96428,0.87,6.13,5.8,14.69
+236,Upper East Side North,Manhattan,161,Midtown Center,Manhattan,95778,1.88,14.86,13.92,23.07
+141,Lenox Hill West,Manhattan,236,Upper East Side North,Manhattan,92351,1.07,7.88,7.17,15.74
+186,Penn Station/Madison Sq West,Manhattan,230,Times Sq/Theatre District,Manhattan,90916,1.04,14.54,13.0,21.47
+237,Upper East Side South,Manhattan,141,Lenox Hill West,Manhattan,86341,0.75,6.56,5.9,14.71
+236,Upper East Side North,Manhattan,141,Lenox Hill West,Manhattan,85769,1.1,8.77,8.15,16.68
+162,Midtown East,Manhattan,237,Upper East Side South,Manhattan,85657,1.0,9.17,7.8,17.89
+238,Upper West Side North,Manhattan,239,Upper West Side South,Manhattan,82389,0.8,5.18,4.87,13.76
+132,JFK Airport,Queens,230,Times Sq/Theatre District,Manhattan,82356,17.74,61.18,59.65,96.02
+236,Upper East Side North,Manhattan,239,Upper West Side South,Manhattan,80534,1.42,9.18,8.63,17.81
+161,Midtown Center,Manhattan,234,Union Sq,Manhattan,79642,1.43,12.44,11.57,20.95
+237,Upper East Side South,Manhattan,142,Lincoln Square East,Manhattan,79057,1.26,10.55,9.78,18.75
+142,Lincoln Square East,Manhattan,237,Upper East Side South,Manhattan,79053,1.32,9.82,9.17,18.22
+186,Penn Station/Madison Sq West,Manhattan,161,Midtown Center,Manhattan,78196,1.25,14.93,13.4,21.98
+237,Upper East Side South,Manhattan,263,Yorkville West,Manhattan,78075,1.18,8.06,7.43,16.43
+142,Lincoln Square East,Manhattan,238,Upper West Side North,Manhattan,76285,1.48,8.16,7.75,17.5
+141,Lenox Hill West,Manhattan,237,Upper East Side South,Manhattan,76100,0.72,6.74,6.02,14.56
+239,Upper West Side South,Manhattan,236,Upper East Side North,Manhattan,75174,1.47,9.75,9.28,18.24
+138,LaGuardia Airport,Queens,230,Times Sq/Theatre District,Manhattan,75119,10.04,40.9,39.15,80.53
+263,Yorkville West,Manhattan,236,Upper East Side North,Manhattan,75022,0.67,5.43,5.02,13.41
+161,Midtown Center,Manhattan,164,Midtown South,Manhattan,74206,0.96,10.19,9.22,18.42
+142,Lincoln Square East,Manhattan,236,Upper East Side North,Manhattan,73122,2.07,12.52,11.92,21.62
+140,Lenox Hill East,Manhattan,236,Upper East Side North,Manhattan,72513,1.29,9.95,9.38,17.65
+236,Upper East Side North,Manhattan,162,Midtown East,Manhattan,71993,1.76,13.16,12.23,21.67
+163,Midtown North,Manhattan,237,Upper East Side South,Manhattan,71610,0.96,8.81,7.83,17.5
+162,Midtown East,Manhattan,236,Upper East Side North,Manhattan,71441,1.77,12.94,11.65,22.16
+236,Upper East Side North,Manhattan,238,Upper West Side North,Manhattan,71341,1.4,9.23,8.68,17.73
+161,Midtown Center,Manhattan,161,Midtown Center,Manhattan,71251,0.57,7.66,6.28,16.23
+230,Times Sq/Theatre District,Manhattan,186,Penn Station/Madison Sq West,Manhattan,70794,0.97,10.81,9.83,18.78
+236,Upper East Side North,Manhattan,142,Lincoln Square East,Manhattan,70250,1.91,12.51,11.85,21.12
+48,Clinton East,Manhattan,68,East Chelsea,Manhattan,70040,1.11,7.38,6.57,16.7
+237,Upper East Side South,Manhattan,140,Lenox Hill East,Manhattan,69761,0.9,8.48,7.78,15.96
+262,Yorkville East,Manhattan,236,Upper East Side North,Manhattan,68468,0.87,7.04,6.72,14.76
+263,Yorkville West,Manhattan,141,Lenox Hill West,Manhattan,68264,0.93,5.72,4.98,14.25
+186,Penn Station/Madison Sq West,Manhattan,170,Murray Hill,Manhattan,68091,1.01,11.91,10.75,19.45
+234,Union Sq,Manhattan,170,Murray Hill,Manhattan,67792,1.0,8.84,7.93,17.68
+163,Midtown North,Manhattan,236,Upper East Side North,Manhattan,67739,1.72,12.33,11.42,21.61
+186,Penn Station/Madison Sq West,Manhattan,234,Union Sq,Manhattan,67273,0.94,7.92,6.92,16.39
+236,Upper East Side North,Manhattan,263,Yorkville West,Manhattan,66381,0.7,5.77,5.32,13.85
+236,Upper East Side North,Manhattan,262,Yorkville East,Manhattan,65679,0.88,7.31,6.98,15.21
+107,Gramercy,Manhattan,170,Murray Hill,Manhattan,65131,0.98,7.62,6.97,16.6
+237,Upper East Side South,Manhattan,163,Midtown North,Manhattan,63837,0.94,9.3,8.45,17.54
+161,Midtown Center,Manhattan,163,Midtown North,Manhattan,63690,0.77,9.41,8.37,17.5
+140,Lenox Hill East,Manhattan,237,Upper East Side South,Manhattan,63069,0.89,8.66,7.97,16.06
+237,Upper East Side South,Manhattan,239,Upper West Side South,Manhattan,63008,1.76,12.29,11.53,20.86
+161,Midtown Center,Manhattan,230,Times Sq/Theatre District,Manhattan,62857,0.71,10.59,9.3,18.29
+236,Upper East Side North,Manhattan,140,Lenox Hill East,Manhattan,62817,1.34,10.79,10.15,18.17
+161,Midtown Center,Manhattan,186,Penn Station/Madison Sq West,Manhattan,62522,1.26,14.11,13.17,21.7
+239,Upper West Side South,Manhattan,239,Upper West Side South,Manhattan,61830,0.63,4.73,4.0,13.28
+163,Midtown North,Manhattan,161,Midtown Center,Manhattan,61768,0.76,9.12,8.02,17.24
+238,Upper West Side North,Manhattan,142,Lincoln Square East,Manhattan,61261,1.36,8.41,8.1,17.1
+237,Upper East Side South,Manhattan,229,Sutton Place/Turtle Bay North,Manhattan,60845,1.06,9.08,8.3,17.72
+161,Midtown Center,Manhattan,141,Lenox Hill West,Manhattan,60168,1.46,12.07,11.12,20.89
+161,Midtown Center,Manhattan,170,Murray Hill,Manhattan,60143,0.95,9.83,9.05,18.18
+238,Upper West Side North,Manhattan,236,Upper East Side North,Manhattan,59725,1.36,9.21,8.72,17.38
+141,Lenox Hill West,Manhattan,263,Yorkville West,Manhattan,59380,1.0,5.97,5.33,14.49
+162,Midtown East,Manhattan,141,Lenox Hill West,Manhattan,58974,1.2,9.23,8.2,18.3
+142,Lincoln Square East,Manhattan,161,Midtown Center,Manhattan,58617,1.39,12.03,11.03,20.06
+164,Midtown South,Manhattan,161,Midtown Center,Manhattan,57417,0.94,10.12,8.87,18.16
+236,Upper East Side North,Manhattan,75,East Harlem South,Manhattan,56959,0.91,6.16,5.62,14.09
+161,Midtown Center,Manhattan,142,Lincoln Square East,Manhattan,56365,1.44,12.91,11.9,21.55
+237,Upper East Side South,Manhattan,262,Yorkville East,Manhattan,55892,1.43,10.4,9.78,18.5
+263,Yorkville West,Manhattan,237,Upper East Side South,Manhattan,55426,1.18,8.69,7.97,16.62
+249,West Village,Manhattan,79,East Village,Manhattan,55396,1.25,11.07,10.55,19.15
+162,Midtown East,Manhattan,170,Murray Hill,Manhattan,54868,0.85,8.29,7.15,16.87
+239,Upper West Side South,Manhattan,237,Upper East Side South,Manhattan,54676,1.69,12.01,11.38,20.13
+230,Times Sq/Theatre District,Manhattan,161,Midtown Center,Manhattan,54325,0.76,9.11,7.88,17.27
+142,Lincoln Square East,Manhattan,48,Clinton East,Manhattan,54317,1.01,7.59,6.75,16.63
+142,Lincoln Square East,Manhattan,163,Midtown North,Manhattan,54188,0.84,6.86,6.15,15.67
+230,Times Sq/Theatre District,Manhattan,68,East Chelsea,Manhattan,54152,1.34,11.7,10.73,20.09
+170,Murray Hill,Manhattan,234,Union Sq,Manhattan,54073,1.05,8.4,7.4,17.25
+68,East Chelsea,Manhattan,48,Clinton East,Manhattan,53592,1.22,10.89,9.48,19.38
+234,Union Sq,Manhattan,161,Midtown Center,Manhattan,53006,1.44,13.62,12.35,21.47
+141,Lenox Hill West,Manhattan,141,Lenox Hill West,Manhattan,52778,0.67,5.18,4.25,13.58
+236,Upper East Side North,Manhattan,163,Midtown North,Manhattan,52686,1.72,13.49,12.85,21.79
+142,Lincoln Square East,Manhattan,142,Lincoln Square East,Manhattan,52323,0.65,5.32,4.5,14.26
+229,Sutton Place/Turtle Bay North,Manhattan,237,Upper East Side South,Manhattan,52268,1.02,9.84,8.78,17.93
+68,East Chelsea,Manhattan,230,Times Sq/Theatre District,Manhattan,52070,1.45,16.08,14.65,23.3
+79,East Village,Manhattan,170,Murray Hill,Manhattan,51991,1.67,10.35,9.67,19.57
+141,Lenox Hill West,Manhattan,229,Sutton Place/Turtle Bay North,Manhattan,51954,0.95,7.2,6.18,16.12
+230,Times Sq/Theatre District,Manhattan,142,Lincoln Square East,Manhattan,51928,1.15,9.03,8.3,18.26
+239,Upper West Side South,Manhattan,143,Lincoln Square West,Manhattan,51580,0.9,6.51,6.13,14.86
+170,Murray Hill,Manhattan,161,Midtown Center,Manhattan,51448,0.88,10.29,9.12,18.14
+161,Midtown Center,Manhattan,68,East Chelsea,Manhattan,51386,1.75,16.37,15.43,24.11
+186,Penn Station/Madison Sq West,Manhattan,107,Gramercy,Manhattan,51274,1.35,11.51,10.52,19.73
+140,Lenox Hill East,Manhattan,263,Yorkville West,Manhattan,49747,1.07,6.76,6.15,15.23
+246,West Chelsea/Hudson Yards,Manhattan,48,Clinton East,Manhattan,49728,1.12,9.41,8.1,18.27
+68,East Chelsea,Manhattan,68,East Chelsea,Manhattan,49693,0.81,6.01,4.65,15.48
+79,East Village,Manhattan,107,Gramercy,Manhattan,49562,0.92,6.0,5.5,15.41
+170,Murray Hill,Manhattan,237,Upper East Side South,Manhattan,49201,1.58,13.61,12.18,21.84

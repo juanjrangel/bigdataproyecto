@@ -1,0 +1,8 @@
+airport,direction,trips,avg_distance_mi,avg_duration_min,avg_total_usd,avg_tolls_usd,revenue_usd
+JFK,Desde aeropuerto,1777783,15.37,43.97,79.59,3.29,141488170.22
+LaGuardia,Desde aeropuerto,1183522,9.41,30.91,68.38,4.6,80932262.35
+LaGuardia,Hacia aeropuerto,401862,10.1,30.17,70.29,5.29,28245836.95
+JFK,Hacia aeropuerto,318289,16.85,51.64,92.12,4.74,29320068.53
+Newark (EWR),Hacia aeropuerto,80285,17.48,40.94,132.03,18.4,10599896.86
+Tarifa aeropuerto (otra zona),Hacia aeropuerto,43656,7.33,25.8,77.12,3.76,3366783.88
+Newark (EWR),Desde aeropuerto,295,10.39,26.68,105.08,10.06,30998.17

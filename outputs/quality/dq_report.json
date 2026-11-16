@@ -1,0 +1,64 @@
+{
+  "total": 48722602,
+  "valid": 43688645,
+  "rules": [
+    {
+      "rule": "timestamps_no_nulos",
+      "description": "Fecha/hora de inicio y fin presentes",
+      "violations": 0,
+      "first_failure": 0
+    },
+    {
+      "rule": "dentro_del_periodo",
+      "description": "Inicio del viaje dentro de 2025",
+      "violations": 29,
+      "first_failure": 29
+    },
+    {
+      "rule": "fin_posterior_inicio",
+      "description": "Hora de fin posterior a la de inicio",
+      "violations": 546304,
+      "first_failure": 546304
+    },
+    {
+      "rule": "duracion_valida",
+      "description": "Duración entre 1 y 180 min",
+      "violations": 1109695,
+      "first_failure": 563390
+    },
+    {
+      "rule": "distancia_valida",
+      "description": "Distancia > 0 y <= 100 millas",
+      "violations": 1405828,
+      "first_failure": 1021306
+    },
+    {
+      "rule": "tarifa_valida",
+      "description": "Tarifa base > 0 y <= 500 USD y total > 0",
+      "violations": 2871545,
+      "first_failure": 2579138
+    },
+    {
+      "rule": "zonas_validas",
+      "description": "Zonas de origen/destino con geometría (1..263)",
+      "violations": 371657,
+      "first_failure": 320434
+    },
+    {
+      "rule": "velocidad_plausible",
+      "description": "Velocidad media <= 80 mph",
+      "violations": 559982,
+      "first_failure": 3312
+    },
+    {
+      "rule": "pasajeros_validos",
+      "description": "Pasajeros nulo o entre 0 y 6",
+      "violations": 146,
+      "first_failure": 44
+    }
+  ],
+  "duplicates_removed": 0,
+  "silver_rows": 43688645,
+  "quarantine_rows": 5033957,
+  "retention_pct": 89.668
+}

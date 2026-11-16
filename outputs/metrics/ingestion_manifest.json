@@ -1,0 +1,95 @@
+{
+  "year": 2025,
+  "months": {
+    "01": {
+      "file": "yellow_tripdata_2025-01.parquet",
+      "bytes": 59158238,
+      "source_rows": 3475226,
+      "bronze_rows": 3475226,
+      "match": true
+    },
+    "02": {
+      "file": "yellow_tripdata_2025-02.parquet",
+      "bytes": 60343086,
+      "source_rows": 3577543,
+      "bronze_rows": 3577543,
+      "match": true
+    },
+    "03": {
+      "file": "yellow_tripdata_2025-03.parquet",
+      "bytes": 69964745,
+      "source_rows": 4145257,
+      "bronze_rows": 4145257,
+      "match": true
+    },
+    "04": {
+      "file": "yellow_tripdata_2025-04.parquet",
+      "bytes": 67352824,
+      "source_rows": 3970553,
+      "bronze_rows": 3970553,
+      "match": true
+    },
+    "05": {
+      "file": "yellow_tripdata_2025-05.parquet",
+      "bytes": 77837865,
+      "source_rows": 4591845,
+      "bronze_rows": 4591845,
+      "match": true
+    },
+    "06": {
+      "file": "yellow_tripdata_2025-06.parquet",
+      "bytes": 73542954,
+      "source_rows": 4322960,
+      "bronze_rows": 4322960,
+      "match": true
+    },
+    "07": {
+      "file": "yellow_tripdata_2025-07.parquet",
+      "bytes": 66943728,
+      "source_rows": 3898963,
+      "bronze_rows": 3898963,
+      "match": true
+    },
+    "08": {
+      "file": "yellow_tripdata_2025-08.parquet",
+      "bytes": 62293743,
+      "source_rows": 3574091,
+      "bronze_rows": 3574091,
+      "match": true
+    },
+    "09": {
+      "file": "yellow_tripdata_2025-09.parquet",
+      "bytes": 72432945,
+      "source_rows": 4251015,
+      "bronze_rows": 4251015,
+      "match": true
+    },
+    "10": {
+      "file": "yellow_tripdata_2025-10.parquet",
+      "bytes": 75267589,
+      "source_rows": 4428699,
+      "bronze_rows": 4428699,
+      "match": true
+    },
+    "11": {
+      "file": "yellow_tripdata_2025-11.parquet",
+      "bytes": 71134255,
+      "source_rows": 4181444,
+      "bronze_rows": 4181444,
+      "match": true
+    },
+    "12": {
+      "file": "yellow_tripdata_2025-12.parquet",
+      "bytes": 73701327,
+      "source_rows": 4305006,
+      "bronze_rows": 4305006,
+      "match": true
+    }
+  },
+  "schema_warnings": {},
+  "source_rows_total": 48722602,
+  "bronze_rows_total": 48722602,
+  "source_bytes_total": 829973299,
+  "counts_reconciled": true,
+  "zones_rows": 265
+}

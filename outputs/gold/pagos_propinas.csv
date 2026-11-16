@@ -1,0 +1,7 @@
+payment_type,payment_label,trips,share_pct,avg_total_usd,avg_tip_usd,avg_tip_pct
+1,Tarjeta de crédito,30023181,68.72,29.57,4.26,25.25
+0,Flex Fare,8809005,20.16,26.21,0.39,1.75
+2,Efectivo,4204484,9.62,24.6,0.0,0.0
+4,Disputa,504166,1.15,29.05,0.01,0.04
+3,Sin cargo,147808,0.34,25.67,0.01,0.08
+5,Desconocido,1,0.00,71.99,0.0,0.0

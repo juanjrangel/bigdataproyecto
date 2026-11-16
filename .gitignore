@@ -1,0 +1,31 @@
+# Datos voluminosos (se descargan con la etapa 'download'; ver README)
+data/raw/
+*.parquet
+!samples/**/*.parquet
+# Entornos y cachés
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+spark-warehouse/
+metastore_db/
+derby.log
+scratch/
+# Configuración local
+.env
+# Documentos de la asignatura (no forman parte del código)
+/Entrega_Final_Proyecto_Curso.pdf
+/EstructuraInformeTecnico.pdf
+/rubricaevaluacion.xlsx
+/InformeBigData.pdf
+
+# Salidas de corridas de demostración
+demo_outputs/
+
+# Salidas que el pipeline regenera y no se versionan
+samples/05_gold/
+outputs/model/
+outputs/experiments/
+outputs/logs/
+outputs/validation/validation_report.json

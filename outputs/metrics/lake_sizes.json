@@ -1,0 +1,25 @@
+{
+  "landing_raw": {
+    "mb": 791.5,
+    "files": 12
+  },
+  "bronze": {
+    "mb": 1065.0,
+    "files": 12
+  },
+  "silver": {
+    "mb": 1714.3,
+    "files": 12
+  },
+  "quarantine": {
+    "mb": 134.9,
+    "files": 12
+  },
+  "gold": {
+    "mb": 0.1,
+    "files": 22
+  },
+  "models": {
+    "mb": 1.9
+  }
+}

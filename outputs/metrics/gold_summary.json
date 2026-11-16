@@ -1,0 +1,60 @@
+{
+  "tables": {
+    "demanda_hora_dia": {
+      "rows": 168,
+      "sql": "01_demanda_hora_dia.sql"
+    },
+    "demanda_zona": {
+      "rows": 263,
+      "sql": "02_demanda_zona.sql"
+    },
+    "top_rutas_od": {
+      "rows": 100,
+      "sql": "03_top_rutas_od.sql"
+    },
+    "mensual_borough": {
+      "rows": 72,
+      "sql": "04_mensual_borough.sql"
+    },
+    "serie_diaria": {
+      "rows": 365,
+      "sql": "05_serie_diaria.sql"
+    },
+    "velocidad_hora_borough": {
+      "rows": 192,
+      "sql": "06_velocidad_hora_borough.sql"
+    },
+    "pagos_propinas": {
+      "rows": 6,
+      "sql": "07_pagos_propinas.sql"
+    },
+    "cargo_congestion_cbd": {
+      "rows": 576,
+      "sql": "08_cargo_congestion_cbd.sql"
+    },
+    "franjas_horarias": {
+      "rows": 36,
+      "sql": "09_franjas_horarias.sql"
+    },
+    "aeropuertos": {
+      "rows": 7,
+      "sql": "10_aeropuertos.sql"
+    },
+    "correlaciones": {
+      "rows": 45,
+      "sql": "DataFrame API (F.corr)"
+    }
+  },
+  "kpis": {
+    "trips": 43688645,
+    "revenue_usd": 1240642021.46,
+    "avg_distance_mi": 3.432,
+    "avg_duration_min": 17.164,
+    "avg_speed_mph": 10.92,
+    "avg_total_usd": 28.397,
+    "cbd_fee_total_usd": 24026118.75,
+    "pct_trips_cbd_fee": 73.325,
+    "pct_airport_trips": 8.711,
+    "active_pickup_zones": 260
+  }
+}

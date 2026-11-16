@@ -1,0 +1,86 @@
+# Clúster Spark standalone: 1 master + 2 workers + history server + driver (JupyterLab).
+#   docker compose up -d --build        # arrancar
+#   docker compose exec spark-client spark-submit jobs/run_pipeline.py   # ejecutar pipeline
+#   docker compose down                 # detener (el data lake persiste en el volumen 'lake')
+name: nyc-taxi-bigdata
+
+x-spark-common: &spark-common
+  image: nyc-taxi-spark:1.0
+  volumes:
+    - lake:/opt/lake        # Data lake (Bronze/Silver/Gold/modelos) en disco Linux
+    - ./:/opt/project       # Código, datos de landing y salidas (bind mount)
+  env_file:
+    - path: .env
+      required: false
+  networks: [spark-net]
+
+services:
+  spark-master:
+    <<: *spark-common
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    container_name: spark-master
+    hostname: spark-master
+    command: ["master"]
+    ports:
+      - "127.0.0.1:8080:8080"   # Spark Master UI
+      - "127.0.0.1:7077:7077"
+    healthcheck:
+      test: ["CMD", "python3", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8080')"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+
+  spark-worker-1: &worker
+    <<: *spark-common
+    container_name: spark-worker-1
+    hostname: spark-worker-1
+    command: ["worker"]
+    environment:
+      SPARK_WORKER_CORES: ${SPARK_WORKER_CORES:-6}
+      SPARK_WORKER_MEMORY: ${SPARK_WORKER_MEMORY:-5g}
+      SPARK_WORKER_WEBUI_PORT: 8081
+    ports: ["127.0.0.1:8081:8081"]
+    depends_on:
+      spark-master: {condition: service_healthy}
+    mem_limit: 6g
+
+  spark-worker-2:
+    <<: *worker
+    container_name: spark-worker-2
+    hostname: spark-worker-2
+    environment:
+      SPARK_WORKER_CORES: ${SPARK_WORKER_CORES:-6}
+      SPARK_WORKER_MEMORY: ${SPARK_WORKER_MEMORY:-5g}
+      SPARK_WORKER_WEBUI_PORT: 8082
+    ports: ["127.0.0.1:8082:8082"]
+
+  spark-history:
+    <<: *spark-common
+    container_name: spark-history
+    hostname: spark-history
+    command: ["history"]
+    ports: ["127.0.0.1:18080:18080"]   # Spark History Server
+    depends_on:
+      spark-master: {condition: service_healthy}
+
+  spark-client:
+    <<: *spark-common
+    container_name: spark-client
+    hostname: spark-client
+    command: ["client"]
+    ports:
+      - "127.0.0.1:4040:4040"   # Spark UI de la aplicación en ejecución
+      - "127.0.0.1:8888:8888"   # JupyterLab
+    depends_on:
+      spark-master: {condition: service_healthy}
+    mem_limit: 4g
+
+volumes:
+  lake:
+    name: nyc-taxi-lake
+
+networks:
+  spark-net:
+    name: nyc-taxi-net
